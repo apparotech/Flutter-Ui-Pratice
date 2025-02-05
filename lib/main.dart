@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_pratice/pratice_ui/DetailPage.dart';
+import 'package:flutter_ui_pratice/pratice_ui/Explore.dart';
 import 'package:flutter_ui_pratice/pratice_ui/TabBarDemo.dart';
+
+import 'package:flutter_ui_pratice/pratice_ui/edit_profile.dart';
+import 'package:flutter_ui_pratice/pratice_ui/explore_next.dart';
+import 'package:flutter_ui_pratice/pratice_ui/raj.dart';
 import 'package:flutter_ui_pratice/pratice_ui/tic_tio.dart';
 
 void main() {
@@ -19,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  TicTio(),
+      home:  ExploreNext(),
     );
   }
 }
