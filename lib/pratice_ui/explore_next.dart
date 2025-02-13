@@ -210,7 +210,7 @@ class _ExploreNextState extends State<ExploreNext> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              height: 220,
+                              height: 150,
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(16.0),
                                 child: Image.network(
@@ -224,7 +224,7 @@ class _ExploreNextState extends State<ExploreNext> {
                               child: const  Text(
                                 "Trekking",
                                 style: TextStyle(
-                                  fontSize: 22,
+                                  fontSize: 10,
                                   fontWeight: FontWeight.w500
                                 ),
                               ),
